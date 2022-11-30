@@ -1,0 +1,37 @@
+html,body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(8, 8, 8);
+}
+.container
+{
+  height: 120px;  
+  width: 390px;
+  font-size: 40px;
+  margin-top: 55%;
+  border-radius: 8px;
+  background: linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
+}
+.display
+{
+    margin-left: 70px;
+    margin-top: -35px;
+    z-index: 999;
+}
+#time
+{
+   margin-top: 22%;
+   background-color: rgb(8, 8, 8);
+   width: 250px;
+   height: 55px;
+   color: black;
+   font-weight: bold;
+   
+}
+.container .display #time{
+    
+    background: linear-gradient(135deg,#ff00e0,#ffeb3b,#14ffe9);
+    /* -webkit-background-clip: border-box; */
+    /* -webkit-text-fill-color: transparent; */
+}
